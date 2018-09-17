@@ -1,0 +1,22 @@
+/****************  GENERIC ***********/
+i {color:#bfbdb3;padding-right:10px;}
+h4 {font-weight:600;color:#000;}
+a:hover {text-decoration:none;}
+
+/******************** CARD CSS *******************/
+.card{box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 0px;
+    text-transform:lowercase;
+}
+.card:hover {box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);}
+.card-block {padding:15px;}
+.card-img {border-radius: 0px 0px 0 0;max-height:250px;overflow: hidden;}
+/****************  BORDER ***********/
+.out-border {border:1px solid #e2e2e2;border-radius:10px 10px;}
+
+
+    .btn-glyphicon { padding:8px; background:#ffffff; margin-right:4px; }
+.icon-btn { padding: 1px 15px 3px 2px; border-radius:50px;}
+  

@@ -1,0 +1,156 @@
+@extends('layouts.app')
+
+@section('style')
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link type="text/css" href="css/photogallery/css/styles.css" rel="stylesheet" media="all" />
+<link href="css/photogallery/css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+@endsection
+
+@section('content')
+
+
+    <div class="wrapper">
+   	<div class="portfolio-content">	
+    <h1 class="title-page">Gallery</h1>
+	  <ul class="portfolio-categ filter">
+      <li>categories:</li>
+      <li class="all active"><a href="#">All</a></li>
+         	<li class="cat-item-1"><a href="#" title="Category 1">Category 1</a></li>
+	<li class="cat-item-2"><a href="#" title="Category 2">Category 2</a></li>
+	<li class="cat-item-3"><a href="#" title="Category 3">Category 3</a></li>
+	<li class="cat-item-4"><a href="#" title="Category 4">Category 4</a></li>
+    </ul>
+   <!--................................................................................... -->     
+       
+			            <ul class="portfolio-area">	
+
+               		<li class="portfolio-item2" data-id="id-0" data-type="cat-item-4">	
+			        <div>
+                   <span class="image-block">
+					<a class="image-zoom" href="{{asset('images/big/p1.jpg')}}" rel="prettyPhoto[gallery]" title="tOUR">
+          <img width="225" height="140" src="{{asset('images/thumbs/p1.jpg')}}" alt="Wall-E" title="Wall-E" />                    
+                    </a>
+                    </span>
+                   <div class="home-portfolio-text">
+					<h2 class="post-title-portfolio"><a href="#" rel="bookmark" title="Wall-E">Xmas</a></h2>
+                    <p class="post-subtitle-portfolio">released: 2008</p>
+					</div>
+                    
+					</div>
+        </li>			
+  <!--................................................................................... -->
+                  <li class="portfolio-item2" data-id="id-0" data-type="cat-item-4">  
+              <div>
+                   <span class="image-block">
+          <a class="image-zoom" href="{{asset('images/big/p2.jpg')}}" rel="prettyPhoto[gallery]" title="Wall-E">
+          <img width="225" height="140" src="{{asset('images/thumbs/p2.jpg')}}" alt="Wall-E" title="Wall-E" />                    
+                    </a>
+                    </span>
+                   <div class="home-portfolio-text">
+          <h2 class="post-title-portfolio"><a href="#" rel="bookmark" title="Wall-E">Pride</a></h2>
+                    <p class="post-subtitle-portfolio">released: 2008</p>
+          </div>
+                    
+          </div>
+        </li>    
+  <!--................................................................................... --> 
+
+         <li class="portfolio-item2" data-id="id-2" data-type="cat-item-1">	
+			        <div>
+                   <span class="image-block">
+					<a class="image-zoom" href="{{ asset('images/big/p3.jpg')}}" rel="prettyPhoto[gallery]" title="Cars 2"><img width="225" height="140" src="images/thumbs/p3.jpg" alt="Cars 2" title="Cars 2" />                    
+                    </a>
+                    </span>
+                   <div class="home-portfolio-text">
+					<h2 class="post-title-portfolio"><a href="#" rel="bookmark" title="Cars 2">Tour</a></h2>
+                    <p class="post-subtitle-portfolio">released: 2011</p>
+					</div>
+                    
+					</div>	
+          </li>		
+  <!--................................................................................... -->         
+				   <li class="portfolio-item2" data-id="id-3" data-type="cat-item-4">	
+			        <div>
+                   <span class="image-block">
+					<a class="image-zoom" href="{{ asset('images/big/p4.jpg')}}" rel="prettyPhoto[gallery]" title="Toy Story 3"><img width="225" height="140" src="images/thumbs/p4.jpg" alt="Toy Story 3" title="Toy Story 3" />                    
+                    </a>
+                    </span>
+                   <div class="home-portfolio-text">
+					<h2 class="post-title-portfolio"><a href="#" rel="bookmark" title="Toy Story 3">Overall</a></h2>
+                    <p class="post-subtitle-portfolio">released: 2010</p>
+					</div>
+                    
+					</div>	
+                 </li>
+  <!--................................................................................... -->                		
+				            
+			                            		
+               		<li class="portfolio-item2" data-id="id-4" data-type="cat-item-3">	
+			        <div>
+                   <span class="image-block">
+					<a class="image-zoom" href="{{ asset('images/big/p5.jpg')}}" rel="prettyPhoto[gallery]" title="Finding Nemo"><img width="225" height="140" src="images/thumbs/p5.jpg" alt="Finding Nemo" title="Finding Nemo" />                    
+                    </a>
+                    </span>
+                   <div class="home-portfolio-text">
+					<h2 class="post-title-portfolio"><a href="#" rel="bookmark" title="Finding Nemo">tOUR</a></h2>
+                    <p class="post-subtitle-portfolio">released: 2016</p>
+					</div>
+                    
+					</div>	
+                    </li>		
+ <!--................................................................................... -->	
+				            
+			     		              		
+               		<li class="portfolio-item2" data-id="id-5" data-type="cat-item-2">	
+			        <div>
+                   <span class="image-block">
+					<a class="image-zoom" href="{{ asset('/images/big/p6.jpg')}}" rel="prettyPhoto[gallery]" title="Lorax"><img width="225" height="140" src="images/thumbs/p6.jpg" alt="Lorax" title="Lorax" />                    
+                    </a>
+                    </span>
+                   <div class="home-portfolio-text">
+					<h2 class="post-title-portfolio"><a href="#" rel="bookmark" title="Lorax">Xmas</a></h2>
+                    <p class="post-subtitle-portfolio">released: 2017</p>
+					</div>
+                    
+					</div>	
+                    </li>		
+
+ <!--................................................................................... -->	
+				            
+			     	             	
+               		<li class="portfolio-item2" data-id="id-6" data-type="cat-item-1">	
+			        <div>
+                   <span class="image-block">
+					<a class="image-zoom" href="{{ asset('images/big/p7.jpg')}}" rel="prettyPhoto[gallery]" title="Happy Feet 2"><img width="225" height="140" src="images/thumbs/p7.jpg" alt="Happy Feet 2" title="Happy Feet 2" />                    
+                    </a>
+                    </span>
+                   <div class="home-portfolio-text">
+					<h2 class="post-title-portfolio"><a href="#" rel="bookmark" title="Happy Feet 2">Xmas</a></h2>
+                    <p class="post-subtitle-portfolio">released: 2011</p>
+					</div>
+                    
+					</div>	
+          </li>	
+		                
+  <!--................................................................................... -->           		
+                    <li class="portfolio-item2" data-id="id-7" data-type="cat-item-1">	
+			        <div>
+                   <span class="image-block">
+					<a class="image-zoom" href="{{ asset('images/big/p8.jpg')}}" rel="prettyPhoto[gallery]" title="Tangled"><img width="225" height="140" src="images/thumbs/p8.jpg" alt="Tangled" title="Tangled" />                    
+                    </a>
+                    </span>
+                   <div class="home-portfolio-text">
+					<h2 class="post-title-portfolio"><a href="#" rel="bookmark" title="Tangled">Onam</a></h2>
+                    <p class="post-subtitle-portfolio">released: 2010</p>
+					</div>
+                    
+					</div>	
+                    </li>			
+				            
+ <!--................................................................................... -->			     
+		            <li class="portfolio-item2" data-id="id-8" data-type="cat-item-1">	
+			        <div>
+                   <span class="image-block">
+					<a class="image-zoom" href="{{ asset('images/big/p9.jpg')}}" rel="prettyPhoto[gallery]" title="Kung Fu Panda 2"><img width="225" height="140" src="images/thumbs/p9.jpg" alt="Kung Fu Panda 2" title="Kung Fu Panda 2" />                    
+                    </a>
+          

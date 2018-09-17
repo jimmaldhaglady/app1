@@ -1,0 +1,78 @@
+--- 
+files: 
+  certificate: 
+    bistax_biswascollege_com_cada8_774e5_1552388551_bf0d1635b37896052aecbddf4ea5fbd5: 
+      created: '1520852551'
+      domains: 
+        - bistax.biswascollege.com
+        - bistax.in
+        - mail.bistax.in
+        - www.bistax.biswascollege.com
+        - www.bistax.in
+      friendly_name: bistax.biswascollege.com, bistax.in, mail.bistax.in, www.bistax.biswascollege.com, and www.bistax.in
+      id: bistax_biswascollege_com_cada8_774e5_1552388551_bf0d1635b37896052aecbddf4ea5fbd5
+      is_self_signed: 1
+      issuer.commonName: bistax.biswascollege.com
+      issuer.organizationName: ~
+      modulus: cada8d1db1fb943598ffd408805038320da8e30c3ef405056922473ea5859bb4ef30e872d52063ce101c94e16f44975fc2486d9aae3b9bafb66fe3f585fc705ba9ac7f6cf10392dfd3cc1ebeb2705f2fed65e39751688d6d46fadf5df2c7d1948af58c64af44708689b3c1dd74513a32f1d7fe9e43b88908230adf5e44ee7fac784a66d0e9582fa7878249347720611eaec4a907235ad30dff2d60f61c1c3b4417cd90ebc4e85cd58fc813f87e9b3f1403c6085d319e2c5acc89e4bf2061c67941c1852bc3f5c631fc6dbd6e7caea2305cab9939f4ffdb7cbe4a52b2122637eec3732dc1b0fb946257929a18bebdf73a8b2fd9c13cd7a66caed9778e3fc774e5
+      modulus_length: 2048
+      not_after: '1552388551'
+      not_before: '1520852551'
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: bistax.biswascollege.com
+      validation_type: ~
+    biswascollege_com_9a14d_ea2c1_1551414336_1ee138b268533d82db0aa21bc4d527ce: 
+      created: '1519878336'
+      domains: 
+        - biswascollege.com
+        - mail.biswascollege.com
+        - www.biswascollege.com
+      friendly_name: biswascollege.com, mail.biswascollege.com, and www.biswascollege.com
+      id: biswascollege_com_9a14d_ea2c1_1551414336_1ee138b268533d82db0aa21bc4d527ce
+      is_self_signed: 1
+      issuer.commonName: biswascollege.com
+      issuer.organizationName: ~
+      modulus: 9a14dd8ec3b1026aa8f256ae513432d8e17f29617d98d3629444a414999005af4863eaf4062458b801068d1e366bd62de3946c60c12e35e0246b7857cccad6fdfa76a1b83335ccc12f08b5520f103fe6dcdc06b899d228562c656b187e8de618f4f8b13c5675e11f8ad6b7ee946ace3273c8be8e62b38c6f35c21a05b6ffe02b44b34e33e1688ae3818b03e5ad3bfeff36c8b5ae2a10d72d7bafc05e86a35ec4a501e6adc2c7c4d646919e4254926b81a9941c302be3a2fd569a0802a2425d640ee10792abdbb2fcee523c7e3379bc342b10ae57d69ee0bc40133ffcb5f64b0f865153dd80d9dacf7be67654873a00bf0b7107a07ade73747c34d320facea2c1
+      modulus_length: 2048
+      not_after: '1551414336'
+      not_before: '1519878336'
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: biswascollege.com
+      validation_type: ~
+  key: 
+    9a14d_ea2c1_3412b76f9c81e77a4d809a0d50f85b9a: 
+      created: '1519878336'
+      friendly_name: 2,048 bits, created 3/1/18, 4:25 AM UTC
+      id: 9a14d_ea2c1_3412b76f9c81e77a4d809a0d50f85b9a
+      modulus: 9a14dd8ec3b1026aa8f256ae513432d8e17f29617d98d3629444a414999005af4863eaf4062458b801068d1e366bd62de3946c60c12e35e0246b7857cccad6fdfa76a1b83335ccc12f08b5520f103fe6dcdc06b899d228562c656b187e8de618f4f8b13c5675e11f8ad6b7ee946ace3273c8be8e62b38c6f35c21a05b6ffe02b44b34e33e1688ae3818b03e5ad3bfeff36c8b5ae2a10d72d7bafc05e86a35ec4a501e6adc2c7c4d646919e4254926b81a9941c302be3a2fd569a0802a2425d640ee10792abdbb2fcee523c7e3379bc342b10ae57d69ee0bc40133ffcb5f64b0f865153dd80d9dacf7be67654873a00bf0b7107a07ade73747c34d320facea2c1
+      modulus_length: 2048
+    cada8_774e5_6d0493cb2e1dbb329e15239693fdbc4f: 
+      created: '1520852551'
+      friendly_name: 2,048 bits, created 3/12/18, 11:02 AM UTC
+      id: cada8_774e5_6d0493cb2e1dbb329e15239693fdbc4f
+      modulus: cada8d1db1fb943598ffd408805038320da8e30c3ef405056922473ea5859bb4ef30e872d52063ce101c94e16f44975fc2486d9aae3b9bafb66fe3f585fc705ba9ac7f6cf10392dfd3cc1ebeb2705f2fed65e39751688d6d46fadf5df2c7d1948af58c64af44708689b3c1dd74513a32f1d7fe9e43b88908230adf5e44ee7fac784a66d0e9582fa7878249347720611eaec4a907235ad30dff2d60f61c1c3b4417cd90ebc4e85cd58fc813f87e9b3f1403c6085d319e2c5acc89e4bf2061c67941c1852bc3f5c631fc6dbd6e7caea2305cab9939f4ffdb7cbe4a52b2122637eec3732dc1b0fb946257929a18bebdf73a8b2fd9c13cd7a66caed9778e3fc774e5
+      modulus_length: 2048
+indexes: 
+  certificate: 
+    modulus: 
+      9a14dd8ec3b1026aa8f256ae513432d8e17f29617d98d3629444a414999005af4863eaf4062458b801068d1e366bd62de3946c60c12e35e0246b7857cccad6fdfa76a1b83335ccc12f08b5520f103fe6dcdc06b899d228562c656b187e8de618f4f8b13c5675e11f8ad6b7ee946ace3273c8be8e62b38c6f35c21a05b6ffe02b44b34e33e1688ae3818b03e5ad3bfeff36c8b5ae2a10d72d7bafc05e86a35ec4a501e6adc2c7c4d646919e4254926b81a9941c302be3a2fd569a0802a2425d640ee10792abdbb2fcee523c7e3379bc342b10ae57d69ee0bc40133ffcb5f64b0f865153dd80d9dacf7be67654873a00bf0b7107a07ade73747c34d320facea2c1: 
+        biswascollege_com_9a14d_ea2c1_1551414336_1ee138b268533d82db0aa21bc4d527ce: ~
+      cada8d1db1fb943598ffd408805038320da8e30c3ef405056922473ea5859bb4ef30e872d52063ce101c94e16f44975fc2486d9aae3b9bafb66fe3f585fc705ba9ac7f6cf10392dfd3cc1ebeb2705f2fed65e39751688d6d46fadf5df2c7d1948af58c64af44708689b3c1dd74513a32f1d7fe9e43b88908230adf5e44ee7fac784a66d0e9582fa7878249347720611eaec4a907235ad30dff2d60f61c1c3b4417cd90ebc4e85cd58fc813f87e9b3f1403c6085d319e2c5acc89e4bf2061c67941c1852bc3f5c631fc6dbd6e7caea2305cab9939f4ffdb7cbe4a52b2122637eec3732dc1b0fb946257929a18bebdf73a8b2fd9c13cd7a66caed9778e3fc774e5: 
+        bistax_biswascollege_com_cada8_774e5_1552388551_bf0d1635b37896052aecbddf4ea5fbd5: ~
+    subject.commonName: 
+      bistax.biswascollege.com: 
+        bistax_biswascollege_com_cada8_774e5_1552388551_bf0d1635b37896052aecbddf4ea5fbd5: ~
+      biswascollege.com: 
+        biswascollege_com_9a14d_ea2c1_1551414336_1ee138b268533d82db0aa21bc4d527ce: ~
+uniques: 
+  certificate: 
+    friendly_name: 
+      bistax.biswascollege.com, bistax.in, mail.bistax.in, www.bistax.biswascollege.com, and www.bistax.in: bistax_biswascollege_com_cada8_774e5_1552388551_bf0d1635b37896052aecbddf4ea5fbd5
+      biswascollege.com, mail.biswascollege.com, and www.biswascollege.com: biswascollege_com_9a14d_ea2c1_1551414336_1ee138b268533d82db0aa21bc4d527ce
+  key: 
+    friendly_name: 
+      2,048 bits, created 3/1/18, 4:25 AM UTC: 9a14d_ea2c1_3412b76f9c81e77a4d809a0d50f85b9a
+      2,048 bits, created 3/12/18, 11:02 AM UTC: cada8_774e5_6d0493cb2e1dbb329e15239693fdbc4f
+    modulus: 
+      9a14dd8ec3b1026aa8f256ae513432d8e17f29617d98d3629444a414999005af4863eaf4062458b801068d1e366bd62de3946c60c12e35e0246b7857cccad6fdfa76a1b83335ccc12f08b5520f103fe6dcdc06b899d228562c656b187e8de618f4f8b13c5675e11f8ad6b7ee946ace3273c8be8e62b38c6f35c21a05b6ffe02b44b34e33e1688ae3818b03e5ad3bfeff36c8b5ae2a10d72d7bafc05e86a35ec4a501e6adc2c7c4d646919e4254926b81a9941c302be3a2fd569a0802a2425d640ee10792abdbb2fcee523c7e3379bc342b10ae57d69ee0bc40133ffcb5f64b0f865153dd80d9dacf7be67654873a00bf0b7107a07ade73747c34d320facea2c1: 9a14d_ea2c1_3412b76f9c81e77a4d809a0d50f85b9a
+      cada8d1db1fb943598ffd408805038320da8e30c3ef405056922473ea5859bb4ef30e872d52063ce101c94e16f44975fc2486d9aae3b9bafb66fe3f585fc705ba9ac7f6cf10392dfd3cc1ebeb2705f2fed65e39751688d6d46fadf5df2c7d1948af58c64af44708689b3c1dd74513a32f1d7fe9e43b88908230adf5e44ee7fac784a66d0e9582fa7878249347720611eaec4a907235ad30dff2d60f61c1c3b4417cd90ebc4e85cd58fc813f87e9b3f1403c6085d319e2c5acc89e4bf2061c67941c1852bc3f5c631fc6dbd6e7caea2305cab9939f4ffdb7cbe4a52b2122637eec3732dc1b0fb946257929a18bebdf73a8b2fd9c13cd7a66caed9778e3fc774e5: cada8_774e5_6d0493cb2e1dbb329e15239693fdbc4f

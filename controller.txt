@@ -1,0 +1,4 @@
+php artisan make:controller apply_onlineController --resource
+
+
+php artisan make:controller contactController --resource

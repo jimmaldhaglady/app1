@@ -1,0 +1,98 @@
+@extends('layouts.app')
+@section('style')
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/3-col-portfolio.css" rel="stylesheet">
+@endsection
+
+@section('content')
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+  </head>
+<body>
+ <div class="container">
+
+    <center><h1 class="my-4">Faculty </h1></center>  
+  
+      <div class="row">
+        <div class="col-md-3 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="{{ asset('images/faculty/1.jpg')}}" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">CA. Ullas Parackal</a>
+              </h4>
+              <p class="card-text">He secured All India 7th Rank in CMA Inter. He has been teaching the students of CA, CMA and CS for 9 Years. He is an excellent faculty for Tax, Costing, Financial Management & Accounting </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="{{ asset('images/faculty/2.jpg')}}" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Noble C Tresa</a>
+              </h4>
+              <p class="card-text">She handles IT related papers of CA & CMA. She has around 9 years of Teaching Experience in the field of CA and CMA </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="{{ asset('images/faculty/3.jpg')}}" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">CA Shemeer T</a>
+              </h4>
+              <p class="card-text">He is the 19th All India Rank holder for ICWA Inter. He is an excellent faculty for Costing, Tax & Accounting. </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="{{ asset('images/faculty/4.jpg')}}" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">CA Valsalakumar G</a>
+              </h4>
+              <p class="card-text">He is an excellent faculty for Accounting. He is our most Senior Member of the Advisory Board.He has more than 14 years of teaching experience. </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="{{ asset('images/faculty/5.jpg')
+            }}" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">CA. G. Sreekumar</a>
+              </h4>
+              <p class="card-text">He handles Auditing in excellence.He has around 8 years of Teaching experience. </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="{{ asset('images/faculty/6.jpg')}}" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Adv. Hafiz Aslam</a>
+              </h4>
+              <p class="card-text">He handles Law related papers of CMA & CS. His classes are really superb.His practicals and teachings experience help the students very much in the class.</p>
+            </div>
+          </div>
+        </div>
+
+         <div class="col-md-3 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="{{ asset('
